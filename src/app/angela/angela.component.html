@@ -1,0 +1,13 @@
+<div class="app">
+
+  <h1>Clients</h1>
+  <ul>
+    <li appDelete *ngFor="let client of clients; let i = index;">
+      {{ i }}: {{ client.fullname | capitalize}}
+    </li>
+  </ul>
+
+</div>
+
+
+

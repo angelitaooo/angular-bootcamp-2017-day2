@@ -1,0 +1,7 @@
+
+<h1>Dependencies</h1>
+<ul class="container-dependency">
+  <li appDelete *ngFor="let dependency of dependencies; let i = index;">
+    <span appAnimate>{{ i }}: {{ dependency | clean}}</span>
+  </li>
+</ul>
