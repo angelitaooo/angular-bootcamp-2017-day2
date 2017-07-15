@@ -6,11 +6,11 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:prod": "ng build --prod",
+    "build:ghpages": "ng build --prod --base-href https://angelitaooo.github.io/angular-bootcamp-2017-day2/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "npm run build:prod && gh-pages -d dist"
+    "deploy": "npm run build:ghpages && gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
